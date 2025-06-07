@@ -17,11 +17,11 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = os.getenv("API_ID", "23069582")
-API_HASH = os.getenv("API_HASH", "b3b56eaf67828684f54d540f684fdf1f")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7920777535:AAGenA2V2y-LVLEKfHe7KqKWVDe9_00zYn8")
+API_ID = os.getenv("API_ID", "22562874")
+API_HASH = os.getenv("API_HASH", "0cbb05c57e36de023a40e45124513f03")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7859887286:AAHGpFa6FzExiKX0Y2S0JeYgeRylSZrAiKA")
 MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://MJxExDB:d6MewqLLIStyy6vH@excluster.hvtovn8.mongodb.net/?retryWrites=true&w=majority&appName=ExCluster")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "1780523256").split())) # list seperated via space
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5693901067").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "MJxExDB")
 STRING = os.getenv("STRING", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-1002637260882")) # optional with -100
